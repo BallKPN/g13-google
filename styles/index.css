@@ -1,6 +1,5 @@
 * {
    box-sizing: border-box;
-   font-family: Mali;
 }
 
 .main{
@@ -8,8 +7,15 @@
    display: block;
 }
 
-#qer {
+#q {
    margin: auto;
    border-style: flex;
    border-radius: 1em;
+}
+
+#advButton {
+   box-shadow: none;
+   border: 1px solid #3079ed;
+   background-color: #4d90fe;
+   color: white;
 }
