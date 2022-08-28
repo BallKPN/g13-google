@@ -1,0 +1,15 @@
+* {
+   box-sizing: border-box;
+   font-family: Mali;
+}
+
+.main{
+   position: absolute;
+   display: block;
+}
+
+#qer {
+   margin: auto;
+   border-style: flex;
+   border-radius: 1em;
+}
