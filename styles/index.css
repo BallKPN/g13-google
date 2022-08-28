@@ -2,13 +2,36 @@
    box-sizing: border-box;
 }
 
-.main{
+div {
+   display: block;
+}
+
+form {
+   display: block;
+   margin-top: 0em;
+}
+
+#page {
+   display: grid;
+   flex-direction: column;
+   height: 100%;
+}
+
+.main {
    position: absolute;
    display: block;
 }
 
-#q {
+.Search {
+   position: relative;
+
+}
+
+.box {
+   height: 30px;
+   width: 100%;
    margin: auto;
+   box-shadow: none;
    border-style: flex;
    border-radius: 1em;
 }
@@ -16,6 +39,35 @@
 #advButton {
    box-shadow: none;
    border: 1px solid #3079ed;
+   border-radius: 2px;
    background-color: #4d90fe;
    color: white;
+}
+
+.mbutton {
+   margin: auto;
+   border: none;
+   border-radius: 4px;
+
+   height: 30px;
+   min-width: 120px;
+
+   position: relative;
+}
+
+.mbutton:hover {
+   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+   background-color: #f8f9fa;
+   border: 1px solid #dadce0;
+}
+
+#buttoncontainer {
+   width: 100%;
+}
+
+#searchForm {
+   margin: auto;
+   width: 50%;
+   border: 1px solid;
+   padding: 10px;
 }
