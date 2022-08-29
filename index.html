@@ -5,23 +5,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search</title>
+    <title>Google ChineseVer</title>
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-1024.png">
 </head>
 
 <body>
     <div id="page">
-        <a href="imgSearch.html">Images Search</a>
-        <a href="advSearch.html">Advanced Search</a>
+        <div class="bar" style="border:0px solid rgb(0,0,0);text-align: right;">
+            <a style="text-decoration: none; color:black; margin-right: 30px;"href="imgSearch.html">Images Search</a>
+            <a style="text-decoration: none; color: black;"href="advSearch.html">Advanced Search</a>
+        </div>
 
         <div id="searchForm">
-            <p align="center">Google</p>
+            <div style="text-align : center">
+                <img style=""src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+            </div>
+            
             <form action="https://google.com/search">
                 <div class="Search">
-                    <input type="text" name="q" id="q" class="box">
+                    <div style="text-align:center;">
+                        <input style="width: 800px;"type="text" name="q" id="q" class="box">
+                    </div>
                     <br />
                     <div id="buttoncontainer">
-                        <button type="submit" class="mbutton">Google Search</button>
+                        <button style="margin-right:120px" type="submit" class="mbutton">Google Search</button>
                         <button name="btnI" type="submit" class="mbutton">I'm Feeling Lucky</button>
                     </div>
                 </div>
