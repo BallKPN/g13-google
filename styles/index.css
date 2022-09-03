@@ -28,9 +28,9 @@ form {
 }
 
 .box {
-   height: 30px;
-   width: 100%;
-   margin: auto;
+   height: 35px;
+   width: 850px;
+   margin: auto auto auto auto;
    box-shadow: none;
    border-style: flex;
    border-radius: 1em;
@@ -77,4 +77,22 @@ form {
 
 .bar{
    text-align: left;
+}
+
+.input-box{
+   box-sizing: border-box;
+   border-radius: 50px;
+   width: 50rem;
+   margin: auto;
+   height: 33px;
+   padding-left: 30px;
+}
+
+.input-box:hover{
+   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+   background-color: #f0ecec;
+}
+
+input:focus, textarea:focus, select:focus{
+   outline: none;
 }

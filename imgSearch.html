@@ -7,13 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search</title>
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-1024.png">
 </head>
 
 <body>
-    <a href="index.html">Google</a>
-    <p>Google images</p>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q" class="box">
+
+    <div class="bar" style="border:0px solid rgb(0,0,0);text-align: right;">
+        <a style="text-decoration: none; color:black; margin-right: 30px;"href="index.html">Google</a>
+    </div>
+
+    <form action="https://www.google.com/search" style="text-align: center">
+
+        <div style="text-align : center">
+            <img style="margin-top :100px;margin-bottom: 1rem;"src="./images/google-images.png" alt="Google">
+        </div>
+        <input type="text" name="q" class="input-box">
         <input type="hidden" name="tbm" value="isch">
         <input type="submit" value="Image Search" class="mbutton">
       </form>
