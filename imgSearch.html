@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="landing">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search</title>
+    <title>Beagle Search</title>
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="icon" href="https://pic.onlinewebfonts.com/svg/img_561431.png">
 </head>
 
 <body>
-    <a href="index.html">Google</a>
-    <p>Google images</p>
+    <header class="bar">
+        <a class="menuItem" href="index.html">Home</a>
+        <a class="menuItem" href="advSearch.html">Advanced Search</a>
+    </header>
+    <div style="text-align : center;">
+        <img src="..\g13-google-main\styles\beagleLogo.png" alt="Beagle">
+    </div>
+    <h1 style="color: white; text-align: center; font-size: 40px;">Image Search</h1>
     <form action="https://www.google.com/search">
-        <input type="text" name="q" class="box">
-        <input type="hidden" name="tbm" value="isch">
-        <input type="submit" value="Image Search" class="mbutton">
-      </form>
+        <div class="Search">
+            <input type="text" name="q" class="box">
+            <input type="hidden" name="tbm" value="isch">
+            <input type="submit" value="Image Search" class="mbutton">
+        </div>
+    </form>
 </body>
 
 </html>
