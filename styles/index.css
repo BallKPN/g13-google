@@ -16,7 +16,7 @@ div {
 .landing{
    background-image: url('https://images.pexels.com/photos/8593218/pexels-photo-8593218.jpeg?auto=compress&cs=tinysrgb');
    background-position: center;
-   background-size: cover;
+   background-size: auto;
    background-repeat: no-repeat;
 }
 
