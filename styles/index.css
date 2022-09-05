@@ -6,6 +6,20 @@ div {
    display: block;
 }
 
+.menuItem{
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   font-size: 18px;
+}
+
+.landing{
+   background-image: url('https://images.pexels.com/photos/8593218/pexels-photo-8593218.jpeg?auto=compress&cs=tinysrgb');
+   background-position: center;
+   background-size: auto;
+   background-repeat: no-repeat;
+}
+
 form {
    display: block;
    margin-top: 0em;
@@ -24,20 +38,23 @@ form {
 
 .Search {
    position: relative;
-
+   text-align: center;
+   font-size: 20px;
+   color: white;
 }
 
 .box {
    height: 30px;
-   width: 100%;
    margin: auto;
    box-shadow: none;
    border-style: flex;
    border-radius: 1em;
+   width: 800px;
 }
 
 #advButton {
    box-shadow: none;
+   font-size: 18px;
    border: 1px solid #3079ed;
    border-radius: 2px;
    background-color: #4d90fe;
@@ -48,11 +65,12 @@ form {
    margin: auto;
    border: none;
    border-radius: 4px;
-
-   height: 30px;
-   min-width: 120px;
-
+   font-size: 15px;
+   color: white;
+   padding: 15px;
+   display: inline-block;
    position: relative;
+   background-color: black;
 }
 
 .mbutton:hover {
@@ -77,4 +95,9 @@ form {
 
 .bar{
    text-align: left;
+   background-color: black; 
+   padding: 10px;
+   display: block;
+   border:3px solid transparent;
+   text-align: right;
 }

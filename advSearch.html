@@ -1,28 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="landing">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search</title>
+    <title>Beagle Search</title>
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="icon" href="https://pic.onlinewebfonts.com/svg/img_561431.png">
 </head>
 
 <body>
-    <a href="index.html">Google</a>
-    <p>Advanced Search</p>
-    <form action="https://www.google.com/search">
-        <p>all these words:</p>
-        <input type="text" name="as_q" class="advSearch">
-        <p>this exact word or phrase:</p>
-        <input type="text" name="as_epq" class="advSearch">
-        <p>any of these words:</p>
-        <input type="text" name="as_oq" class="advSearch">
-        <p>none of these words:</p>
-        <input type="text" name="as_eq" class="advSearch">
-        <input type="submit" id="advButton" value="Advanced Search">
-      </form>
+    <header class="bar">
+        <a class="menuItem" href="index.html">Home</a>
+    </header>
+    <div style="text-align : center;">
+        <img src="styles\beagleLogo.png" alt="Beagle">
+    </div>
+    <div class="Search">
+        <h1>Advance Search</h1>
+        <form action="https://www.google.com/search">
+            <div style="background-color: grey; padding: 10px; width: 50%; margin: auto;">
+                all these words:    <input type="text" name="as_q" class="advSearch"><br/><br/>
+                this exact word or phrase:  <input type="text" name="as_epq" class="advSearch"><br/><br/>
+                any of these words: <input type="text" name="as_oq" class="advSearch"><br/><br/>
+                none of these words:    <input type="text" name="as_eq" class="advSearch"><br/><br/>
+
+                <input type="submit" id="advButton" value="Advanced Search">
+            </div>
+          </form>
+    </div>
 </body>
 
 </html>
